@@ -2,9 +2,7 @@
 This is the official code of the NeurIPS 2024 paper "Text-DiFuse: An Interactive Multi-Modal Image Fusion Framework based on Text-modulated Diffusion Model"
 # Environmental Installation
 
-#create virtual environment
-
-conda create -n Text-DiFuse python=3.8.10
+conda create -n Text-DiFuse python==3.9.0
 
 conda activate Text-DiFuse
 
