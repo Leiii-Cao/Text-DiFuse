@@ -28,10 +28,12 @@ python test.py
 # Citation
 ```
 @article{zhang2024text,
-  title={Text-DiFuse: An Interactive Multi-Modal Image Fusion Framework based on Text-modulated Diffusion Model},
+  title={Text-DiFuse: An Interactive Multi-Modal Image Fusion Framework based on Text-modulated Diffusion Model}, 
   author={Zhang, Hao and Cao, Lei and Ma, Jiayi},
-  journal={arXiv preprint arXiv:2410.23905},
-  year={2024}
+  journal={Advances in Neural Information Processing Systems},
+  volume={37}, 
+  pages={39552--39572},
+  year={2024} 
 }
 ```
 
