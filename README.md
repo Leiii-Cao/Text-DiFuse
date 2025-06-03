@@ -1,4 +1,4 @@
-# [NeurIPS 2024 Spotlight]Text-DiFuse: An Interactive Multi-Modal Image Fusion Framework based on Text-modulated Diffusion Model
+# [NeurIPS 2024 Spotlight] Text-DiFuse: An Interactive Multi-Modal Image Fusion Framework based on Text-modulated Diffusion Model
 This repository is the official implementation of the **NeurIPS 2024** paper:
 _"Text-DiFuse: An Interactive Multi-Modal Image Fusion Framework based on Text-modulated Diffusion Model"_ 
 ### [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/45e409b46bebd648e9041a628a1a9964-Abstract-Conference.html) | [Arxiv](https://arxiv.org/abs/2410.23905) | [Poster](https://neurips.cc/virtual/2024/poster/93032) 
@@ -21,7 +21,7 @@ If you have any questions or discussions, please send me an email:
 whu.caolei@whu.edu.cn
 ```
 
-![Framework![1](https://github.com/user-attachments/assets/af9ab6f0-61fe-4157-b2a5-ad9aece0ed8b)
+![1](https://github.com/user-attachments/assets/af9ab6f0-61fe-4157-b2a5-ad9aece0ed8b)
 
 ## Environmental Installation
 
@@ -55,7 +55,7 @@ If you want to test the modulation mode, please first download the pretrained mo
 ```
 ./modulated/checkpoint/
 ```
-You can modify parameter **text_prompt**,and then run the code:
+You can modify parameter **text_prompt**, and then run the code:
 ```
 python test_modulated.py
 ```
