@@ -1,4 +1,4 @@
-# [NeurIPS 2024 Spotlight] Text-DiFuse: An Interactive Multi-Modal Image Fusion Framework based on Text-modulated Diffusion Model
+# [NeurIPS 2024 spotlight] Text-DiFuse: An Interactive Multi-Modal Image Fusion Framework based on Text-modulated Diffusion Model
 This repository is the official implementation of the **NeurIPS 2024** paper:
 _"Text-DiFuse: An Interactive Multi-Modal Image Fusion Framework based on Text-modulated Diffusion Model"_ 
 ### [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/45e409b46bebd648e9041a628a1a9964-Abstract-Conference.html) | [Arxiv](https://arxiv.org/abs/2410.23905) | [Poster](https://neurips.cc/virtual/2024/poster/93032) 
