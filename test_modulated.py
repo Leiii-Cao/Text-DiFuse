@@ -30,6 +30,7 @@ def main():
     parser.add_argument('--save_dir', type=str, default='./result_modulated')
     parser.add_argument('--batch_size', type=int, default=1)
     parser.add_argument('--num_workers', type=int, default=2)
+    parser.add_argument('--text_prompt', type=str, default='people,car,bike')
     parser.set_defaults(timestep_respacing="25")
     args = parser.parse_args()
     
@@ -81,7 +82,7 @@ def main():
     for i, input in enumerate(test_loader):
         cond={'condition': input[0].to(args.device)}
         cond1={'condition': input[1].to(args.device)}
-        cond_modulated,cond1_modulated,target_modulated,target=OWL_VIT_SAM(batch=input[0].to(args.device),batch1=input[1].to(args.device),input=input,text_prompt="people,car,bike",processor=processor,model=OWL_VIT_model,predictor=predictor)
+        cond_modulated,cond1_modulated,target_modulated,target=OWL_VIT_SAM(batch=input[0].to(args.device),batch1=input[1].to(args.device),input=input,text_prompt=args.text_prompt,processor=processor,model=OWL_VIT_model,predictor=predictor)
         torch.manual_seed(0)
         x_F_t=torch.randn(input[0].shape, device=args.device)
         torch.manual_seed(0)
