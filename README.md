@@ -21,7 +21,8 @@ If you have any questions or discussions, please send me an email:
 whu.caolei@whu.edu.cn
 ```
 
-![Framework](assert/1.jpg)
+![Framework![1](https://github.com/user-attachments/assets/af9ab6f0-61fe-4157-b2a5-ad9aece0ed8b)
+
 ## Environmental Installation
 
 ```
@@ -54,8 +55,12 @@ If you want to test the modulation mode, please first download the pretrained mo
 ```
 ./modulated/checkpoint/
 ```
+You can modify parameter **text_prompt**,and then run the code:
+```
+python test_modulated.py
+```
 # 🔥 Train code
-### Train diffusion model
+### Train the diffusion model
 Place your own training data in the directory:
 ```
 ./data/train_diffusion/
@@ -64,7 +69,7 @@ And then run the code:
 ```
 python train_diffusion.py
 ```
-### Train FCM model
+### Train the FCM model
 Place your own training data in the directory:
 ```
 ./data/train_FCM/
