@@ -61,7 +61,7 @@ You can modify parameter **text_prompt**, and then run the code:
 ```
 python test_modulated.py
 ```
-# 🔥 Train code
+## 🔥 Train code
 ### Train the diffusion model
 Place your own training data in the directory:
 ```
