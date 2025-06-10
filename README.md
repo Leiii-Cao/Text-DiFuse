@@ -3,7 +3,8 @@ This repository is the official implementation of the **NeurIPS 2024** paper:
 _"Text-DiFuse: An Interactive Multi-Modal Image Fusion Framework based on Text-modulated Diffusion Model"_ 
 ### [Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/45e409b46bebd648e9041a628a1a9964-Abstract-Conference.html) | [Arxiv](https://arxiv.org/abs/2410.23905) | [Poster](https://neurips.cc/virtual/2024/poster/93032) 
 
-![1](https://github.com/user-attachments/assets/af9ab6f0-61fe-4157-b2a5-ad9aece0ed8b)
+
+![PAMI](https://github.com/user-attachments/assets/f3c2efa1-2590-4be0-8a4b-ce82c676b02e)
 
 ## Citation
 If our work assists your research, feel free to give us a star ⭐ or cite us using:
