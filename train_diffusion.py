@@ -33,7 +33,7 @@ def main():
     """TrainData Dataloader"""
     LR_path = "./data/train_diffusion/LQ/"
     HR_path = "./data/train_diffusion/HQ/"
-    Train_Dataset = GET_TrainDataset(LR_path,HR_path,MAX_SIZE=512,CROP_SIZE=256)
+    Train_Dataset = GET_TrainDataset(HR_path,LR_path,MAX_SIZE=512,CROP_SIZE=256)
     train_loader = DataLoader(
         Train_Dataset, 
         batch_size=args.batch_size, 
