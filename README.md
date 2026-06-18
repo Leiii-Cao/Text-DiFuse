@@ -2,7 +2,7 @@
 # 📢 News
 
 > [!IMPORTANT]
-> **NeurIPS 2025 PDFuse code has been released: [Code](https://github.com/Leiii-Cao/PDFuse/tree/main)**
+> **Ours unified image fusion method NeurIPS 2025 PDFuse code has been released: [Code](https://github.com/Leiii-Cao/PDFuse/tree/main)**
 
 
 # [NeurIPS 2024 spotlight] Text-DiFuse: An Interactive Multi-Modal Image Fusion Framework based on Text-modulated Diffusion Model
