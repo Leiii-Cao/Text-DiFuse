@@ -2,6 +2,8 @@
 # 📢 News
 
 > [!IMPORTANT]
+> **DuS-DiFuse, the journal extension of Text-DiFuse, has been published in IEEE TPAMI (2026), and its code is now available: [Code](https://github.com/Leiii-Cao/DuS-DiFuse/tree/main)**
+
 > **Ours unified image fusion method NeurIPS 2025 PDFuse code has been released: [Code](https://github.com/Leiii-Cao/PDFuse/tree/main)**
 
 
